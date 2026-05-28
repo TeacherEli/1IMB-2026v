@@ -23,7 +23,30 @@ body{
 }
 
 form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: green;
-    height: 90%;
+    height: 80%;
     width: 95%;
+}
+
+.formSection{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    width:80%;
+}
+
+button{
+    width: 30%;
+    height: 5%;
+    border-radius: 10px;
+}
+
+p{
+    margin-top: 10px;
 }
