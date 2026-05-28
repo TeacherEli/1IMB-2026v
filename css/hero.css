@@ -1,0 +1,32 @@
+#hero_main_{
+    width: 80%;
+    background-color: aqua;
+    height: 600px;
+    display: flex;
+    border-radius: 20px;
+    /* justify-content: center; */
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#flexbox{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#title{
+    margin-top: 100px;
+}
+#navbar{
+    width: 100%;
+    height: 40px;
+    background-color: green;
+
+}
+#texthero{
+    width: 80%;
+}
