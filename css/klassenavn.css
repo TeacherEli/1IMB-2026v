@@ -1,0 +1,35 @@
+#student-list {
+  padding: 40px 20px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+#student-list h2 {
+  font-size: 1.5rem;
+  color: #111;
+  margin-bottom: 24px;
+}
+
+.student-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.student-group-card {
+  display: block;
+  background: #fff;
+  color: #111;
+  text-decoration: none;
+  padding: 14px 20px;
+  border-radius: 6px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  transition: background 0.2s;
+}
+
+.student-group-card:hover {
+  background: #eee;
+}
